@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj": {}
+    "c:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj": {
+    "c:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj",
+        "projectUniqueName": "c:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj",
         "projectName": "Avocado.API",
-        "projectPath": "C:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj",
+        "projectPath": "c:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\Avocado.API.csproj",
         "packagesPath": "C:\\Users\\diego.martignoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\obj\\",
+        "outputPath": "c:\\Workspace\\Trash\\Docker\\avocado\\Avocado.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diego.martignoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
