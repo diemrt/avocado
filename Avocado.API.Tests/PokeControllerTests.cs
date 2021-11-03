@@ -18,10 +18,10 @@ namespace Avocado.API.Tests
         }
 
         [Fact]
-        public void Random_MustFail()
+        public void BaseMessage_MustPass()
         {
-            var result = _pokeController.Random();
-            Assert.True(false);
+            var result = _pokeController.BaseMessage();
+            Assert.True(result.Equals("This is a poke"));
         }
     }
 }
