@@ -14,7 +14,7 @@ namespace Avocado.API.Controllers
         [HttpGet]
         public IActionResult Random()
         {
-            return Ok("This is a random avocado poke :)");
+            return Ok("This is a random EVIL avocado poke ;(");
         }
     }
 }
