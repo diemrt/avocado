@@ -18,6 +18,6 @@ RUN dotnet publish "Avocado.API.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Avocado.API.dll"]
+#ENTRYPOINT ["dotnet", "Avocado.API.dll"]
 #Heroku config
-#CMD ASPNETCORE_URLS=http://*:$PORT dotnet Avocado.API.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet Avocado.API.dll
