@@ -19,4 +19,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Avocado.API.dll"]
+#Heroku config
 #CMD ASPNETCORE_URLS=http://*:$PORT dotnet Avocado.API.dll
